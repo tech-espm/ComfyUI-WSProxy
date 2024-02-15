@@ -6,7 +6,6 @@ export = {
 	localIp: process.env.app_localIp as string,
 	port: parseInt(process.env.app_port as string),
 	root: process.env.app_root as string,
-	urlSite: process.env.app_urlSite as string,
 
 	sqlConfig: {
 		connectionLimit: parseInt(process.env.app_sqlConfig_connectionLimit as string),
